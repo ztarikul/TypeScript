@@ -58,3 +58,16 @@ class ModerChai {
 
 const c = new ModerChai();
 c.suger = 8;
+
+//Composition
+
+class Heater {
+  heat() {}
+}
+
+class ChaiMaker {
+  constructor(private heater: Heater) {}
+  make() {
+    this.heater.heat;
+  }
+}
