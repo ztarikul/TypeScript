@@ -8,4 +8,8 @@ const placeOrder = (order) => {
     console.log(order);
 };
 placeOrder({ name: "Masala", quantity: 2 });
+const chaiInfo = {
+    name: "Lemon Tea",
+    price: 30,
+};
 //# sourceMappingURL=objectTs.js.map
